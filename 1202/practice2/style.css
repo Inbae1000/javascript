@@ -1,0 +1,15 @@
+.photoon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image:url('super-mario.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.on{
+    background-color: white;
+}

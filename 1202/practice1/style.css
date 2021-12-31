@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#tile-container{
+    width: 600px;
+    height: 600px;
+    /* border: 1px solid red; */
+
+    /* 중앙정렬 */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.tile{
+    width: 200px;
+    height: 200px;
+    background: skyblue;
+}

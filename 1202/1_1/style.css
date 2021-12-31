@@ -1,0 +1,43 @@
+/* #circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: orange;
+    background-image:url('super-mario.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+#led-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.led{
+    width: 30px;
+    height: 30px;
+    background: orange;
+    border-radius: 50%;
+    margin-right: 50px;
+    transition: all 0.5s ease-in-out;
+}
+.on{
+    box-shadow: 1px 1px 10px 10px orange;
+}

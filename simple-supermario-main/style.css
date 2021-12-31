@@ -1,0 +1,21 @@
+#box{
+    width: 50px;
+    height: 50px;
+    background-color: saddlebrown;
+    position: absolute;
+    left: 0px;
+    top: -100px;
+    transition: all 0.1s ease-out;
+    background-image: url('super-mario-right.jpg');
+    background-size: cover;
+    /* 커서 깜빡임 해결 */
+    caret-color: transparent; 
+}
+#bar{
+    width: 700px;
+    height: 50px;
+    background-color: peru;
+    position: absolute;
+    left: 0;
+    top: 550px;
+}

@@ -1,0 +1,14 @@
+/*내가 변경하고 싶은 스타일을 클래스명으로 정의해 놓은것*/
+.contents{
+background : tan;
+padding : 15px;
+width : 300px;
+height : 100px;
+margin : 100px auto;
+line-height : 100px;
+text-align : center;
+color : white;
+font-weight : bold;
+font-size : 1.5rem;
+border-radius : 15px;
+}
